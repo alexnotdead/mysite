@@ -48,7 +48,7 @@
                         </div>
                         <div class="imessage__user-mess">
                             <input  type="text" class="input-mess" placeholder="Message">
-                            <button class="imessage__btn" onclick="printMessage(document.querySelectorAll('.imessage__from-user'), inputMess.value);"></button>
+                            <button class="imessage__btn" onclick="printMessage(document.querySelectorAll('.imessage__message'), inputMess.value), saveMess(`${(countMessage)}fromUser`, userMessValue), hello();"></button>
                         </div>
                     
                     
